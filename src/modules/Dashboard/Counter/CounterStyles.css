@@ -1,0 +1,46 @@
+.counter {
+  margin-bottom: 50px;
+}
+
+.counter__header{
+font-size: 50px;
+margin: 0 auto 20px auto;
+}
+
+.counter__container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.counter__wrapper{
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 500px;
+}
+.counter__text{
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.counter__num{
+  font-size: 150px;
+  margin: 0 auto;
+}
+
+.counter__buttons{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.counter__button{
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 30px
+}
+
+.func-button{
+  background-color: #a1c181;
+}

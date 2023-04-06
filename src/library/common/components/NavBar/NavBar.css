@@ -1,0 +1,15 @@
+.menu {
+  padding-top: 25px;
+  font-size: 20px;
+}
+.menu__link {
+  color: #324d5b;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+.menu__link:last-of-type {
+  margin: 0;
+}
+.menu__link_active {
+  color: #e2574c;
+}

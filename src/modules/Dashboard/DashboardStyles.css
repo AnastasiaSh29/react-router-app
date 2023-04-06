@@ -1,0 +1,8 @@
+.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.dashboard__header {
+  margin: 0 auto;
+}
