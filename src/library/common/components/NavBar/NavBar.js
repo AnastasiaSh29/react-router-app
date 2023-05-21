@@ -13,6 +13,14 @@ function NavBar() {
       >
         Home
       </NavLink>
+      <NavLink
+        to="/posts"
+        className={({ isActive }) =>
+          `menu__link ${isActive ? "menu__link_active" : ""}`
+        }
+      >
+        PostsList
+      </NavLink>
     </nav>
   );
 }

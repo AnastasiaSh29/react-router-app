@@ -1,0 +1,30 @@
+.posts__form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.posts__form-input {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: #e9edc9;
+  margin-bottom: 10px;
+  width: 400px;
+  color: #000;
+  outline: none;
+}
+
+.posts__form-button {
+  background-color: #ccd5ae;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+.posts__form-button:hover {
+  opacity: 0.7;
+}
