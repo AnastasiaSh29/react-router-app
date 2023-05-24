@@ -29,6 +29,14 @@ function NavBar() {
       >
         TodoList
       </NavLink>
+      <NavLink
+        to="/users"
+        className={({ isActive }) =>
+          `menu__link ${isActive ? "menu__link_active" : ""}`
+        }
+      >
+        UserList
+      </NavLink>
     </nav>
   );
 }

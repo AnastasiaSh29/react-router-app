@@ -1,0 +1,10 @@
+export const FETCH_USERS = "FETCH_USERS";
+export const NEW_USER = "NEW_USER";
+export const DELETE_USER = "DELETE_USER";
+export const FETCH_USER = "FETCH_USER";
+export const FETCH_USER_TODOS = "FETCH_USER_TODOS";
+export const FETCH_USER_POSTS = "FETCH_USER_POSTS";
+export const FETCH_USER_ALBUMS = "FETCH_USER_ALBUMS";
+export const LOAD_USER_LOADING = "LOAD_USER_LOADING";
+export const LOAD_USER_SUCCESS = "LOAD_USER_SUCCESS";
+export const LOAD_USER_ERROR = "LOAD_USER_ERROR";
