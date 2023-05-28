@@ -5,6 +5,7 @@ import Dashboard from "../../modules/Dashboard/Dashboard";
 import PostsList from "../../modules/PostsList/PostsList";
 import TodoList from "../../modules/TodoList/TodoList";
 import UserList from "../../modules/UserList/UserList";
+import UserDetails from "../../modules/UserDetails/UserDetails";
 
 function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ function AppRoutes() {
         <Route path="posts" element={<PostsList />} />
         <Route path="todos" element={<TodoList />} />
         <Route path="users" element={<UserList />} />
+        <Route path="users/:id" element={<UserDetails />} />
       </Routes>
     </div>
   );

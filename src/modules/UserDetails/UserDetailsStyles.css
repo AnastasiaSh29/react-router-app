@@ -1,0 +1,76 @@
+.userDetails {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-color: #e9edc9;
+
+  }
+  .userDetails__header {
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+  }
+  .userDetails__content{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .userDetails__list{
+    background: #fff;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    list-style-type: none;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    width: 500px;
+  }
+  .userDetails__item {
+    margin: 0 auto 10px auto;
+    padding: 20px;
+    width: 90%;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* border-radius: 10px; */
+    /* box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2); */
+   display: flex;
+    align-items: center;
+  }
+.userDetails__item:last-of-type{
+    margin-bottom: 0px;
+}
+.userDetails__data{
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-overflow: ellipsis;
+}
+.userDetails__info{
+    margin: 0;
+    color: gray;
+}
+.userDetails__wr-info{
+    text-align: left;
+}
+
+.img{
+    background-image: url("../../resources/images/icons/mail.png");
+    width: 32px;
+    height: 32px;
+    margin: 0 30px 0 0;
+}
+
+.img__mail{
+    background-image: url("../../resources/images/icons/mail.png");
+}
+.img__phone{
+    background-image: url("../../resources/images/icons/phone.png");
+}
+.img__web{
+    background-image: url("../../resources/images/icons/web.png");
+}
+.img__location{
+    background-image: url("../../resources/images/icons/location.png");
+}
+.img__chart{
+    background-image: url("../../resources/images/icons/chart.png");
+}

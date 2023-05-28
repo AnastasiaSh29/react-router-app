@@ -1,0 +1,8 @@
+.user-posts {
+  padding: 0 10px;
+}
+
+.user-posts__list {
+  padding: 0 10px 0 0;
+  list-style: none;
+}

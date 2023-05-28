@@ -1,0 +1,8 @@
+.user-albums {
+  padding: 0 10px;
+}
+
+.user-albums__list {
+  padding: 0 10px 0 0;
+  list-style: none;
+}
